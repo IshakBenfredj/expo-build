@@ -21,9 +21,9 @@ Before starting the build process, configure your project for EAS by running the
 eas build:configure
 ```
 
-### 4. Build the App for Android
-Now you're ready to build your app for Android. Use the command below to start the build process:
+### 4. Build the APK for Android
+To generate an APK file (which can be installed directly on an Android device), use the following command:
 
 ```bash
-eas build --platform android
+eas build --platform android --profile preview
 ```
